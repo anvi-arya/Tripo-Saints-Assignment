@@ -1,0 +1,54 @@
+.container {
+  position: relative;
+  padding: 5em;
+  display: grid;
+  /* background-color: white; */
+  border: 1px solid black;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5em;
+}
+
+.table {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 250px;
+  height: 150px;
+  background-color: #ccc;
+  border: 1px solid #fff;
+}
+
+.chair {
+  z-index: -1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc;
+  position: absolute;
+}
+
+.chair-occupied {
+  background-color: #222;
+}
+
+.chair-0 {
+  top: -30px;
+  left: 20px;
+}
+
+.chair-1 {
+  top: -30px;
+  right: 20px;
+}
+
+.chair-2 {
+  bottom: -30px;
+  left: 20px;
+}
+
+.chair-3 {
+  bottom: -30px;
+  right: 20px;
+}
