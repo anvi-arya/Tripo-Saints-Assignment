@@ -1,8 +1,11 @@
 import React from "react";
 import TableData from "../data/TableData.json";
+import { Chair } from "./Chair";
 import "./TableArea.css";
 
 export const TableArea = () => {
+  // array of chairs {table1.chair1:false}
+
   return (
     <div className="container">
       {/* dynamically injecting tables */}
@@ -12,13 +15,7 @@ export const TableArea = () => {
             Table {indexTable + 1}
             {table.map((chair, indexChair) => {
               return (
-                <div key={indexChair}>
-                  <div
-                    className={`chair chair-${indexChair} ${
-                      chair !== null ? "chair-occupied" : ""
-                    }`}
-                  ></div>
-                </div>
+                <Chair chair={chair} indexChair={indexChair} key={indexChair} />
               );
             })}
           </div>

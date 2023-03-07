@@ -1,0 +1,77 @@
+.chair {
+  z-index: -1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc;
+  position: absolute;
+  cursor: pointer;
+}
+
+.chair-occupied {
+  background-color: #222;
+  border: none;
+}
+
+.chair-0 {
+  clip-path: inset(0% 0% 50% 0%);
+
+  top: -30px;
+  left: 20px;
+}
+
+.chair-1 {
+  clip-path: inset(0% 0% 50% 0%);
+
+  top: -30px;
+  right: 20px;
+}
+
+.chair-2 {
+  clip-path: inset(50% 0% 0% 0%);
+
+  bottom: -30px;
+  left: 20px;
+}
+
+.chair-3 {
+  clip-path: inset(50% 0% 0% 0%);
+
+  bottom: -30px;
+  right: 20px;
+}
+.employee-card-0 {
+  top: -30px;
+  left: 20px;
+}
+.employee-card-1 {
+  top: -30px;
+  right: 20px;
+}
+.employee-card-2 {
+  bottom: -30px;
+  left: 20px;
+}
+.employee-card-3 {
+  bottom: -30px;
+  right: 20px;
+}
+.employee-card {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  padding: 0.25em;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.employee-card-hover {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
