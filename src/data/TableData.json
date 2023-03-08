@@ -6,21 +6,24 @@
       "name": "emp2",
       "team": "Marketing",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp3",
       "team": "UI",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp4",
       "team": "UI",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     }
   ],
   [
@@ -29,14 +32,16 @@
       "name": "emp6",
       "team": "UI",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp9",
       "team": "Database Management",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
     null
   ],
@@ -45,21 +50,24 @@
       "name": "emp7",
       "team": "Mobile Frontend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp19",
       "team": "Backend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp10",
       "team": "Mobile Frontend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
     null
   ],
@@ -68,28 +76,32 @@
       "name": "emp31",
       "team": "Database Management",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp12",
       "team": "Backend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp23",
       "team": "Mobile Frontend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp34",
       "team": "Marketing",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     }
   ],
   [
@@ -97,14 +109,16 @@
       "name": "emp15",
       "team": "Mobile Frontend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp16",
       "team": "Backend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     null,
@@ -113,7 +127,8 @@
       "name": "emp18",
       "team": "DevOps",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     }
   ],
   [
@@ -123,14 +138,16 @@
       "name": "emp22",
       "team": "Mobile Frontend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
       "name": "emp23",
       "team": "Backend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design"
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     }
   ]
 ]

@@ -13,8 +13,9 @@ function App() {
 
   return (
     <MantineProvider withGlobalStyles withNormalizeCSS>
-      <Logo />
       <Container size="lg">
+        <Logo />
+
         <SearchMenu
           jobTitleValue={highlightedJobTitles}
           setJobTitleValue={setHighlightedJobTitle}

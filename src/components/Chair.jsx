@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+import { Group, Avatar, Text, Button, Flex } from "@mantine/core";
+import { IconAt, IconPhoneCall } from "@tabler/icons-react";
+import React, { useState, useEffect } from "react";
+
 import "./Chair.css";
 
 export const Chair = ({ chair, indexChair, highlighted }) => {
@@ -9,6 +12,7 @@ export const Chair = ({ chair, indexChair, highlighted }) => {
   const hidePerson = (employee) => {
     setHover(false);
   };
+
   return (
     <div
       onMouseEnter={() => showPerson(chair)}
@@ -26,10 +30,31 @@ export const Chair = ({ chair, indexChair, highlighted }) => {
             hover ? "employee-card-hover" : ""
           }`}
         >
-          <p className="">name:{chair.name}</p>
-          <p className="">jobTitle:{chair.jobTitle}</p>
-          <p className="">team:{chair.team}</p>
-          <p className="">currentProject:{chair.currentProject}</p>
+          <Flex direction="column" w={200} gap="md">
+            <Flex gap="lg">
+              <Avatar src={chair.avatar} radius={"50%"} size={65} />
+              <div>
+                <Text fz="xs" tt="uppercase" fw={700} c="dimmed">
+                  {chair.jobTitle}
+                </Text>
+                <Text fw={500}>{chair.name}</Text>
+              </div>
+            </Flex>
+
+            <Flex direction="column">
+              <Text fz="xs" tt="uppercase" fw={700} c="dimmed">
+                Team
+              </Text>
+              <Text fw={500}>{chair.team}</Text>
+            </Flex>
+
+            <Flex direction="column">
+              <Text fz="xs" tt="uppercase" fw={700} c="dimmed">
+                Current Project
+              </Text>
+              <Text fw={500}>{chair.currentProject}</Text>
+            </Flex>
+          </Flex>
         </div>
       )}
     </div>

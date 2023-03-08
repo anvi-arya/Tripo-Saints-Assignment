@@ -3,6 +3,11 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
-
-  text-align: center;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: Tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1em;
 }

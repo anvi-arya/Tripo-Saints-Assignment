@@ -13,6 +13,7 @@ import {
 import JobTitles from "../data/JobTitle.json";
 import Teams from "../data/Teams.json";
 import { IconFilter } from "@tabler/icons-react";
+import "./Filter.css";
 
 function FilterButton({
   teamValue,
@@ -20,25 +21,49 @@ function FilterButton({
   jobTitleValue,
   setJobTitleValue,
 }) {
+  const [showTeams, setshowTeams] = useState(false);
+  const [showJobTitles, setshowJobTitles] = useState(false);
   useEffect(() => {
     console.log(teamValue);
   }, [teamValue]);
+  useEffect(() => {
+    if (!showTeams) {
+      setTeamValue([]);
+    }
+  }, [showTeams]);
+  useEffect(() => {
+    if (!showJobTitles) {
+      setJobTitleValue([]);
+    }
+  }, [showJobTitles]);
   return (
-    <Popover ml="auto" width={400} position="bottom" withArrow shadow="md">
+    <Popover ml="auto" width={800} position="bottom-end" withArrow shadow="md">
       <Popover.Target>
         <ActionIcon>
           <IconFilter />
         </ActionIcon>
       </Popover.Target>
       <Popover.Dropdown
+        className="check-box-shadow"
         component={Flex}
         sx={{ gap: "1em", justifyContent: "space-evenly" }}
       >
-        <Popover width={400} position="bottom" withArrow shadow="md">
+        <Popover
+          width={400}
+          position="bottom"
+          withArrow
+          shadow="md"
+          opened={showJobTitles}
+        >
           <Popover.Target>
-            <Checkbox component={Button} label="Job Title" />
+            <Checkbox
+              value={showJobTitles}
+              onChange={(e) => setshowJobTitles(e.target.checked)}
+              component={Button}
+              label="Job Title"
+            />
           </Popover.Target>
-          <Popover.Dropdown>
+          <Popover.Dropdown className="check-box-shadow">
             <Checkbox.Group
               label="Job Titles"
               description="Choose Job Titles to highlight"
@@ -55,11 +80,22 @@ function FilterButton({
         </Popover>
         <Space my="lg" />
         <div>
-          <Popover width={400} position="bottom" withArrow shadow="md">
+          <Popover
+            width={400}
+            position="bottom"
+            withArrow
+            shadow="md"
+            opened={showTeams}
+          >
             <Popover.Target>
-              <Checkbox component={Button} label="Teams" />
+              <Checkbox
+                value={showTeams}
+                onChange={(e) => setshowTeams(e.target.checked)}
+                component={Button}
+                label="Teams"
+              />
             </Popover.Target>
-            <Popover.Dropdown>
+            <Popover.Dropdown className="check-box-shadow">
               <Checkbox.Group
                 label="Teams"
                 description="Choose teams to highlight"

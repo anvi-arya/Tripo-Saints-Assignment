@@ -12,13 +12,11 @@ function SearchMenu({
 }) {
   return (
     <Flex ml="auto" w="200px" justify="center" align="center" pb="sm" gap="sm">
-      <form>
-        <TextInput
-          onChange={(e) => setsearchEmployeeValue(e.target.value)}
-          value={searchEmployeeValue}
-          placeholder="Search Employee"
-        />
-      </form>
+      <TextInput
+        onChange={(e) => setsearchEmployeeValue(e.target.value)}
+        value={searchEmployeeValue}
+        placeholder="Search Employee"
+      />
       <FilterButton
         jobTitleValue={jobTitleValue}
         setJobTitleValue={setJobTitleValue}
