@@ -3,7 +3,11 @@ import TableData from "../data/TableData.json";
 import { Chair } from "./Chair";
 import "./TableArea.css";
 
-export const TableArea = () => {
+export const TableArea = ({
+  highlightedTeams,
+  highlightedJobTitles,
+  searchedEmployeeValue,
+}) => {
   // array of chairs {table1.chair1:false}
 
   return (
@@ -15,7 +19,16 @@ export const TableArea = () => {
             Table {indexTable + 1}
             {table.map((chair, indexChair) => {
               return (
-                <Chair chair={chair} indexChair={indexChair} key={indexChair} />
+                <Chair
+                  chair={chair}
+                  highlighted={
+                    highlightedTeams.includes(chair?.team) ||
+                    highlightedJobTitles.includes(chair?.jobTitle) ||
+                    searchedEmployeeValue === chair?.name
+                  }
+                  indexChair={indexChair}
+                  key={indexChair}
+                />
               );
             })}
           </div>

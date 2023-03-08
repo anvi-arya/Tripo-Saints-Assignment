@@ -1,0 +1,23 @@
+.filter-dropdown {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.primary-checkboxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.job-title {
+}
+.team-checkboxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.job-title-checkboxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Chair.css";
 
-export const Chair = ({ chair, indexChair }) => {
+export const Chair = ({ chair, indexChair, highlighted }) => {
   const [hover, setHover] = useState(false);
   const showPerson = (employee) => {
     setHover(true);
@@ -17,7 +17,7 @@ export const Chair = ({ chair, indexChair }) => {
       <div
         className={`chair chair-${indexChair} ${
           chair !== null ? "chair-occupied" : ""
-        }`}
+        } ${highlighted ? "chair-highlighted" : ""}`}
       ></div>
 
       {chair !== null && (

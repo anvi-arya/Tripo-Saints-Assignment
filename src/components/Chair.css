@@ -13,6 +13,9 @@
   border: none;
 }
 
+.chair-highlighted {
+  background-color: dodgerblue;
+}
 .chair-0 {
   clip-path: inset(0% 0% 50% 0%);
 

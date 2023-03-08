@@ -1,11 +1,14 @@
 .container {
   position: relative;
-  padding: 5em;
-  display: grid;
-  /* background-color: white; */
+  padding: 5em 1em;
+  background-color: white;
   border: 1px solid black;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  /* width: 90%; */
 }
 
 .table {
@@ -19,47 +22,4 @@
   background-color: #ccc;
   border: none;
   outline: 2px solid white;
-}
-
-.chair {
-  z-index: -1;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #ccc;
-  position: absolute;
-  cursor: pointer;
-}
-
-.chair-occupied {
-  background-color: #222;
-  border: none;
-}
-
-.chair-0 {
-  clip-path: inset(0% 0% 50% 0%);
-
-  top: -30px;
-  left: 20px;
-}
-
-.chair-1 {
-  clip-path: inset(0% 0% 50% 0%);
-
-  top: -30px;
-  right: 20px;
-}
-
-.chair-2 {
-  clip-path: inset(50% 0% 0% 0%);
-
-  bottom: -30px;
-  left: 20px;
-}
-
-.chair-3 {
-  clip-path: inset(50% 0% 0% 0%);
-
-  bottom: -30px;
-  right: 20px;
 }

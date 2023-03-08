@@ -1,0 +1,9 @@
+.search-bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+.search-bar input[type="text"] {
+  float: right;
+  width: 200px;
+}
