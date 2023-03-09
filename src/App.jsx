@@ -1,10 +1,8 @@
-import { Filter } from "./components/Filter";
 import { TableArea } from "./components/TableArea";
 import { Logo } from "./components/Logo";
 import SearchMenu from "./components/SearchBar";
 import { useState } from "react";
 import { Container, MantineProvider } from "@mantine/core";
-import FilterButton from "./components/MantineFilter";
 
 function App() {
   const [highlightedTeams, setHighlightedTeams] = useState([]);

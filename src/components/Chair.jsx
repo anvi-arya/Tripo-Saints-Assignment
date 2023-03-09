@@ -1,5 +1,4 @@
 import { Group, Avatar, Text, Button, Flex } from "@mantine/core";
-import { IconAt, IconPhoneCall } from "@tabler/icons-react";
 import React, { useState, useEffect } from "react";
 
 import "./Chair.css";

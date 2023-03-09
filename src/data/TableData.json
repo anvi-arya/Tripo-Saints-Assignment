@@ -3,25 +3,25 @@
     null,
 
     {
-      "name": "emp2",
+      "name": "Samuel",
       "team": "Marketing",
-      "jobTitle": "Sr. Developer",
+      "jobTitle": "Sr. Sales Manager",
+      "currentProject": "Sales Management",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
+    },
+
+    {
+      "name": "Richard",
+      "team": "UI",
+      "jobTitle": "Sr. UI Designer",
       "currentProject": "Dell App Design",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
-      "name": "emp3",
+      "name": "George",
       "team": "UI",
-      "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design",
-      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
-    },
-
-    {
-      "name": "emp4",
-      "team": "UI",
-      "jobTitle": "Sr. Developer",
+      "jobTitle": "Sr. UI Designer",
       "currentProject": "Dell App Design",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     }
@@ -29,33 +29,33 @@
   [
     null,
     {
-      "name": "emp6",
+      "name": "Stella",
       "team": "UI",
-      "jobTitle": "Sr. Developer",
+      "jobTitle": "Sr. UI Designer",
       "currentProject": "Dell App Design",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
-      "name": "emp9",
+      "name": "Emily",
       "team": "Database Management",
-      "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design",
+      "jobTitle": "Sr. Designer",
+      "currentProject": "Android Application",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
     null
   ],
   [
     {
-      "name": "emp7",
+      "name": "Daniel",
       "team": "Mobile Frontend",
-      "jobTitle": "Sr. Developer",
+      "jobTitle": "Jr. Developer",
       "currentProject": "Dell App Design",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
-      "name": "emp19",
+      "name": "Alina",
       "team": "Backend",
       "jobTitle": "Sr. Developer",
       "currentProject": "Dell App Design",
@@ -63,58 +63,58 @@
     },
 
     {
-      "name": "emp10",
+      "name": "katie",
       "team": "Mobile Frontend",
-      "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design",
+      "jobTitle": "Sr. Designer",
+      "currentProject": "Android Application",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
     null
   ],
   [
     {
-      "name": "emp31",
+      "name": "Admund",
       "team": "Database Management",
-      "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design",
+      "jobTitle": "Sr. Designer",
+      "currentProject": "Android Application",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
-      "name": "emp12",
-      "team": "Backend",
-      "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design",
-      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
-    },
-
-    {
-      "name": "emp23",
+      "name": "Harry",
       "team": "Mobile Frontend",
-      "jobTitle": "Sr. Developer",
+      "jobTitle": "Sr. UI Designer",
       "currentProject": "Dell App Design",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
-      "name": "emp34",
+      "name": "Abella",
+      "team": "Backend",
+      "jobTitle": "Jr. Developer",
+      "currentProject": "Dell App Design",
+      "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
+    },
+
+    {
+      "name": "Patrick",
       "team": "Marketing",
-      "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design",
+      "jobTitle": "Sr. Sales Manager",
+      "currentProject": "Sales Management",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     }
   ],
   [
     {
-      "name": "emp15",
+      "name": "Susen",
       "team": "Mobile Frontend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design",
+      "currentProject": "Android Application",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
-      "name": "emp16",
+      "name": "Stefan",
       "team": "Backend",
       "jobTitle": "Sr. Developer",
       "currentProject": "Dell App Design",
@@ -124,10 +124,10 @@
     null,
 
     {
-      "name": "emp18",
+      "name": "Bob",
       "team": "DevOps",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design",
+      "currentProject": "Web Server Development",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     }
   ],
@@ -135,17 +135,17 @@
     null,
     null,
     {
-      "name": "emp22",
+      "name": "Emma",
       "team": "Mobile Frontend",
       "jobTitle": "Sr. Developer",
-      "currentProject": "Dell App Design",
+      "currentProject": "Android Application",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     },
 
     {
-      "name": "emp23",
+      "name": "Edward",
       "team": "Backend",
-      "jobTitle": "Sr. Developer",
+      "jobTitle": "Jr. Developer",
       "currentProject": "Dell App Design",
       "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80"
     }
