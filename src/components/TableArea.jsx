@@ -24,7 +24,8 @@ export const TableArea = ({
                   highlighted={
                     highlightedTeams.includes(chair?.team) ||
                     highlightedJobTitles.includes(chair?.jobTitle) ||
-                    searchedEmployeeValue === chair?.name
+                    searchedEmployeeValue.toLowerCase() ===
+                      chair?.name.toLocaleLowerCase()
                   }
                   indexChair={indexChair}
                   key={indexChair}
